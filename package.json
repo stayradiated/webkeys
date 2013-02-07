@@ -1,0 +1,20 @@
+{
+  "name": "webkeys",
+  "main": "index.html",
+  "description": "A lightweight password manager for OSX",
+  "version": "0.0.1",
+  "window": {
+    "toolbar": false,
+    "width": 300,
+    "height": 365,
+    "position": "mouse",
+    "min_width": 300,
+    "max_width": 300,
+    "min_height": 100,
+    "transparent": true,
+    "frame": false
+  },
+  "dependencies": {
+    "jquery": "*"
+  }
+}

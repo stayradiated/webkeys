@@ -1,0 +1,242 @@
+@import "./mixin"
+@import "./normalize"
+
+.smooth-text {
+  font-smooth: always
+  -webkit-font-smoothing: antialiased
+}
+
+abs($t = auto, $l = auto, $b = auto, $r = auto) {
+  display: block
+  position: absolute
+  top: $t
+  left: $l
+  bottom: $r
+  right: $r
+}
+
+body {
+  font-family: "Helvetica Neue"
+  -webkit-user-select: none
+  background: transparent
+}
+
+ul {
+  margin: 0
+  padding: 0
+}
+
+h1, h2, h3, h4, p, li {
+  cursor: default
+  @extend .smooth-text
+}
+
+header.page {
+  $height = 42px
+
+  background: url("../img/header.png")
+  height: $height
+  line-height: $height
+  // Enable dragging
+  -webkit-app-region: drag
+  border-radius(7px 7px 0 0)
+  border-left: 1px solid #000
+  border-right: 1px solid #000
+
+  h1 {
+    color: #fff
+    text-align: center
+    font-size: 13px
+    margin: 0
+  }
+
+  .add-key {
+    top: 7px
+    right: 10px
+    position: absolute
+
+    &:after {
+      content: ""
+      position: absolute
+      display: block
+      width: 13px
+      height: 13px
+      background: url("../img/icon_add.png")
+      top: 6px
+      left: 7px
+    }
+  }
+}
+
+.window-controls {
+  $left = 10px
+  abs(14px, $left)
+  width: 52px
+  height: 13px
+  background: url("../img/window_decorations.png")
+
+  div {
+    width: 12px
+    height: 13px
+    margin-right: 8px
+    float: left
+
+    &:hover {
+      background: rgba(#000, 0.2)
+    }
+  }
+
+  .maximize {
+    margin-right: 0
+  }
+}
+
+section.page {
+  overflow: hidden
+  abs(42px, 0, 0, 0)
+  background: hsl(0, 0%, 95%)
+  border-left: 1px solid #000
+  border-right: 1px solid #000
+  border-bottom: 1px solid #000
+  border-radius(0 0 7px 7px)
+}
+
+ul.keys {
+
+  li {
+    height: 64px
+    list-style: none
+    border-bottom: 1px solid hsl(0,0,76%)
+    transition(height, 0.2s, linear)
+    position: relative
+    overflow: hidden
+
+    &.open {
+      height: 180px
+    }
+
+    &.new {
+      height: 0px
+      transition(all, 0s)
+    }
+  }
+
+  .main {
+    height: 36px
+    padding: 14px
+    vbg-gradient(#fff, #e5e5e5)
+  }
+
+  img {
+    float: left
+    margin-right: 14px
+  }
+
+  h3 {
+    font-size: 14px
+    color: hsl(0,0,15%)
+    margin: 0
+  }
+
+  p {
+    margin: 0
+    font-size: 12px
+    color: hsl(0,0,15%)
+  }
+
+  .button {
+    float: right
+    margin-top: 12px
+  }
+
+  .details {
+    abs(64px, 0, 0, 0)
+    border-top: 1px solid hsl(0,0,76%)
+    background: #fff
+    padding: 11px
+    inset-box-shadow(0, 1px, 3px, rgba(#000, 0.1))
+
+    .control {
+      font-size: 14px
+      padding: 5px 0
+
+      div {
+        float: left
+        width: 180px
+        height: 21px
+        line-height: 21px
+        padding: 0 5px
+        border-radius: 3px
+      }
+
+      &:after {
+        content: ""
+        display: table
+        clear: both
+      }
+
+    }
+
+    label {
+      display: block
+      float: left
+      font-size: 13px
+      line-height: 21px
+      width: 70px
+      text-align: right
+      margin-right: 2px
+      color: #333
+    }
+
+    .url {
+      color: #08c
+      text-decoration: underline
+      cursor: pointer
+    }
+
+    .copy {
+      &:hover {
+        background: rgba(#000, 0.07)
+        &:after {
+          content: "copy"
+        }
+      }
+      &.copied:after {
+        content: "copied"
+        font-weight: bold
+      }
+      &:after {
+        display: block
+        float: right
+        font-size: 12px
+      }
+    }
+  }
+}
+
+
+.button {
+  cursor: pointer
+  &.arrow-right {
+    width: 11px
+    height: 18px
+    background: url("../img/arrow_right.png")
+  }
+  &.button-normal {
+    @extend .smooth-text
+    border-radius: 3px
+    border: 1px solid hsl(220, 7%, 9%)
+    height: 24px
+    line-height: 24px
+    font-size: 12px
+    font-weight: bold
+    color: #fff
+    padding: 0 12px
+    vbg-gradient(rgba(#777, 0.2), rgba(#000, 0.2))
+    box-shadow(0 1px 0 rgba(#fff, 0.2))
+    inset-box-shadow(0 1px 0 rgba(#fff, 0.2))
+    &:active {
+      vbg-gradient(rgba(#000, 0.2), rgba(#777, 0.2))
+    }
+  }
+}
