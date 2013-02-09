@@ -1,6 +1,7 @@
-Spine = require('../libs/spine')
+Spine = require('spine')
 Key   = require('../models/key')
 Keys  = require('./keys')
+Storage = require('../utils/storage')
 
 class Panel extends Spine.Controller
 
@@ -11,16 +12,26 @@ class Panel extends Spine.Controller
     'click .minimize': 'minimize'
     'click .maximize': 'maximize'
     'click .close': 'close'
+    'dblclick': 'inspect'
 
   constructor: ->
     super
+    Storage.getIcons().then (icons) =>
+      @icons = icons
 
   createKey: =>
+
+    # Temporary -- because I want to
+    length = @icons.length
+    index = Math.floor Math.random() * length
+    icon = @icons[index]
+
     Key.create
-      title: "Title"
-      url: "URL"
-      username: "Username"
-      password: "Password"
+      title: ''
+      url: ''
+      username: ''
+      password: ''
+      icon: icon
       created_on: Date.now()
 
   close: =>

@@ -2,129 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8248",
   "files" : {
-    "\/icons\/technorati.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/technorati.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/technorati.png",
-      "initialSize" : 1716,
-      "fileType" : 8192
-    },
-    "\/icons\/facebook.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/facebook.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/facebook.png",
-      "initialSize" : 846,
-      "fileType" : 8192
-    },
-    "\/icons\/dopplr.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/dopplr.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/dopplr.png",
-      "initialSize" : 1827,
-      "fileType" : 8192
-    },
-    "\/css\/index.styl" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/index.styl",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/index.css",
-      "fileType" : 8,
-      "debugStyle" : 0
-    },
-    "\/icons\/yahoo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/yahoo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/yahoo.png",
-      "initialSize" : 1199,
-      "fileType" : 8192
-    },
-    "\/app\/controllers\/keys.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/controllers\/keys.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/app\/controllers\/keys-ck.js",
-      "fileType" : 64
-    },
-    "\/source\/controllers\/keys.coffee" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/source\/controllers\/keys.coffee",
-      "checkOutputStyle" : 0,
-      "minifyOutput" : 0,
-      "outputAbbreviatedPath" : "\/app\/controllers\/keys.js",
-      "outputStyle" : 0,
-      "fileType" : 32
-    },
-    "\/icons\/default.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/default.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/default.png",
-      "initialSize" : 343,
-      "fileType" : 8192
-    },
-    "\/img\/window_decorations.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/window_decorations.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/window_decorations.png",
-      "initialSize" : 2368,
-      "fileType" : 8192
-    },
-    "\/icons\/icq.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/icq.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/icq.png",
-      "initialSize" : 2210,
-      "fileType" : 8192
-    },
-    "\/icons\/rss.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/rss.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/rss.png",
-      "initialSize" : 1440,
-      "fileType" : 8192
-    },
     "\/img\/header.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -136,82 +13,28 @@
       "initialSize" : 10358,
       "fileType" : 8192
     },
-    "\/icons\/flikr.png" : {
+    "\/app\/models\/key.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/flikr.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/flikr.png",
-      "initialSize" : 831,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/app\/models\/key.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/app\/models\/key-ck.js",
+      "fileType" : 64
     },
-    "\/icons\/linkedin.png" : {
+    "\/source\/controllers\/keys.item.coffee" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/linkedin.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/linkedin.png",
-      "initialSize" : 1045,
-      "fileType" : 8192
-    },
-    "\/icons\/blogger.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/blogger.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/blogger.png",
-      "initialSize" : 1005,
-      "fileType" : 8192
-    },
-    "\/icons\/googleplus.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/googleplus.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/googleplus.png",
-      "initialSize" : 2148,
-      "fileType" : 8192
-    },
-    "\/icons\/tumblr.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/tumblr.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/tumblr.png",
-      "initialSize" : 1816,
-      "fileType" : 8192
-    },
-    "\/icons\/twitter.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/twitter.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/twitter.png",
-      "initialSize" : 1258,
-      "fileType" : 8192
-    },
-    "\/icons\/sharethis.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/sharethis.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/sharethis.png",
-      "initialSize" : 2230,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/source\/controllers\/keys.item.coffee",
+      "checkOutputStyle" : 0,
+      "minifyOutput" : 0,
+      "outputAbbreviatedPath" : "\/app\/controllers\/keys.item.js",
+      "outputStyle" : 0,
+      "fileType" : 32
     },
     "\/css\/mixin.styl" : {
       "ignoreWasSetByUser" : 0,
@@ -225,103 +48,27 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/icons\/mail.png" : {
+    "\/css\/index.styl" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/mail.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/mail.png",
-      "initialSize" : 1036,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/css\/index.styl",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/index.css",
+      "fileType" : 8,
+      "debugStyle" : 0
     },
-    "\/icons\/myspace.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/myspace.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/myspace.png",
-      "initialSize" : 1166,
-      "fileType" : 8192
-    },
-    "\/icons\/deviantart.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/deviantart.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/deviantart.png",
-      "initialSize" : 1445,
-      "fileType" : 8192
-    },
-    "\/icons\/youtube.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/youtube.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/youtube.png",
-      "initialSize" : 2377,
-      "fileType" : 8192
-    },
-    "\/icons\/stumbleupon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/stumbleupon.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/stumbleupon.png",
-      "initialSize" : 1304,
-      "fileType" : 8192
-    },
-    "\/duster.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/duster.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/duster-ck.js",
-      "fileType" : 64
-    },
-    "\/app\/controllers\/keys.item.js" : {
+    "\/app\/utils\/updateAttr.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/controllers\/keys.item.js",
+      "inputAbbreviatedPath" : "\/app\/utils\/updateAttr.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/app\/controllers\/keys.item-ck.js",
-      "fileType" : 64
-    },
-    "\/img\/icon_add.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/icon_add.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/icon_add.png",
-      "initialSize" : 1074,
-      "fileType" : 8192
-    },
-    "\/app\/controllers\/panel.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/controllers\/panel.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/app\/controllers\/panel-ck.js",
+      "outputAbbreviatedPath" : "\/app\/utils\/updateAttr-ck.js",
       "fileType" : 64
     },
     "\/icons\/wordpress.png" : {
@@ -335,57 +82,27 @@
       "initialSize" : 2080,
       "fileType" : 8192
     },
-    "\/css\/index.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/index.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/icons\/fotolia.png" : {
+    "\/icons\/tumblr.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/fotolia.png",
+      "inputAbbreviatedPath" : "\/icons\/tumblr.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/fotolia.png",
-      "initialSize" : 1317,
+      "outputAbbreviatedPath" : "\/icons\/tumblr.png",
+      "initialSize" : 1816,
       "fileType" : 8192
     },
-    "\/source\/models\/key.coffee" : {
+    "\/icons\/issuu.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/source\/models\/key.coffee",
-      "checkOutputStyle" : 0,
-      "minifyOutput" : 0,
-      "outputAbbreviatedPath" : "\/app\/models\/key.js",
-      "outputStyle" : 0,
-      "fileType" : 32
-    },
-    "\/icons\/google.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/google.png",
+      "inputAbbreviatedPath" : "\/icons\/issuu.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/google.png",
-      "initialSize" : 2055,
+      "outputAbbreviatedPath" : "\/icons\/issuu.png",
+      "initialSize" : 1481,
       "fileType" : 8192
-    },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/icons\/digg.png" : {
       "ignoreWasSetByUser" : 0,
@@ -398,37 +115,156 @@
       "initialSize" : 1838,
       "fileType" : 8192
     },
-    "\/icons\/vimeo.png" : {
+    "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/vimeo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/vimeo.png",
-      "initialSize" : 2087,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
-    "\/icons\/skype.png" : {
+    "\/icons\/yahoo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/skype.png",
+      "inputAbbreviatedPath" : "\/icons\/yahoo.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/skype.png",
-      "initialSize" : 2403,
+      "outputAbbreviatedPath" : "\/icons\/yahoo.png",
+      "initialSize" : 1199,
       "fileType" : 8192
     },
-    "\/app\/libs\/spine.js" : {
+    "\/icons\/facebook.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/facebook.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/facebook.png",
+      "initialSize" : 846,
+      "fileType" : 8192
+    },
+    "\/icons\/sharethis.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/sharethis.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/sharethis.png",
+      "initialSize" : 2230,
+      "fileType" : 8192
+    },
+    "\/img\/icon_add.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/icon_add.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/icon_add.png",
+      "initialSize" : 1074,
+      "fileType" : 8192
+    },
+    "\/icons\/fotolia.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/fotolia.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/fotolia.png",
+      "initialSize" : 1317,
+      "fileType" : 8192
+    },
+    "\/css\/index.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/libs\/spine.js",
+      "inputAbbreviatedPath" : "\/css\/index.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
+    },
+    "\/icons\/delicious.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/delicious.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/delicious.png",
+      "initialSize" : 497,
+      "fileType" : 8192
+    },
+    "\/source\/index.coffee" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/source\/index.coffee",
+      "checkOutputStyle" : 0,
+      "minifyOutput" : 0,
+      "outputAbbreviatedPath" : "\/app\/index.js",
+      "outputStyle" : 0,
+      "fileType" : 32
+    },
+    "\/icons\/dopplr.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/dopplr.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/dopplr.png",
+      "initialSize" : 1827,
+      "fileType" : 8192
+    },
+    "\/icons\/default.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/default.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/default.png",
+      "initialSize" : 343,
+      "fileType" : 8192
+    },
+    "\/icons\/rss.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/rss.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/rss.png",
+      "initialSize" : 1440,
+      "fileType" : 8192
+    },
+    "\/source\/utils\/updateAttr.coffee" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/source\/utils\/updateAttr.coffee",
+      "checkOutputStyle" : 0,
+      "minifyOutput" : 0,
+      "outputAbbreviatedPath" : "\/app\/utils\/updateAttr.js",
+      "outputStyle" : 0,
+      "fileType" : 32
+    },
+    "\/app\/controllers\/panel.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/controllers\/panel.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/app\/libs\/spine-ck.js",
+      "outputAbbreviatedPath" : "\/app\/controllers\/panel-ck.js",
       "fileType" : 64
     },
     "\/css\/normalize.styl" : {
@@ -443,15 +279,82 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/img\/arrow_right.png" : {
+    "\/app\/index.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/index.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/app\/index-ck.js",
+      "fileType" : 64
+    },
+    "\/icons\/technorati.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/arrow_right.png",
+      "inputAbbreviatedPath" : "\/icons\/technorati.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/arrow_right.png",
-      "initialSize" : 1256,
+      "outputAbbreviatedPath" : "\/icons\/technorati.png",
+      "initialSize" : 1716,
+      "fileType" : 8192
+    },
+    "\/icons\/mail.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/mail.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/mail.png",
+      "initialSize" : 1036,
+      "fileType" : 8192
+    },
+    "\/app\/utils\/storage.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/utils\/storage.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/app\/utils\/storage-ck.js",
+      "fileType" : 64
+    },
+    "\/app\/controllers\/keys.item.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/controllers\/keys.item.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/app\/controllers\/keys.item-ck.js",
+      "fileType" : 64
+    },
+    "\/source\/controllers\/keys.coffee" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/source\/controllers\/keys.coffee",
+      "checkOutputStyle" : 0,
+      "minifyOutput" : 0,
+      "outputAbbreviatedPath" : "\/app\/controllers\/keys.js",
+      "outputStyle" : 0,
+      "fileType" : 32
+    },
+    "\/icons\/twitter.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/twitter.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/twitter.png",
+      "initialSize" : 1258,
       "fileType" : 8192
     },
     "\/icons\/lastfm.png" : {
@@ -465,60 +368,104 @@
       "initialSize" : 2184,
       "fileType" : 8192
     },
-    "\/icons\/xing.png" : {
+    "\/img\/window_decorations.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/xing.png",
+      "inputAbbreviatedPath" : "\/img\/window_decorations.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/xing.png",
-      "initialSize" : 1288,
+      "outputAbbreviatedPath" : "\/img\/window_decorations.png",
+      "initialSize" : 2368,
       "fileType" : 8192
     },
-    "\/app\/models\/key.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/models\/key.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/app\/models\/key-ck.js",
-      "fileType" : 64
-    },
-    "\/icons\/issuu.png" : {
+    "\/icons\/youtube.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/issuu.png",
+      "inputAbbreviatedPath" : "\/icons\/youtube.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/issuu.png",
-      "initialSize" : 1481,
+      "outputAbbreviatedPath" : "\/icons\/youtube.png",
+      "initialSize" : 2377,
       "fileType" : 8192
     },
-    "\/icons\/delicious.png" : {
+    "\/icons\/vimeo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icons\/delicious.png",
+      "inputAbbreviatedPath" : "\/icons\/vimeo.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/icons\/delicious.png",
-      "initialSize" : 497,
+      "outputAbbreviatedPath" : "\/icons\/vimeo.png",
+      "initialSize" : 2087,
       "fileType" : 8192
     },
-    "\/app\/index.js" : {
+    "\/icons\/icq.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/index.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/app\/index-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/icons\/icq.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/icq.png",
+      "initialSize" : 2210,
+      "fileType" : 8192
+    },
+    "\/icons\/deviantart.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/deviantart.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/deviantart.png",
+      "initialSize" : 1445,
+      "fileType" : 8192
+    },
+    "\/icons\/skype.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/skype.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/skype.png",
+      "initialSize" : 2403,
+      "fileType" : 8192
+    },
+    "\/img\/arrow_right.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/arrow_right.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/arrow_right.png",
+      "initialSize" : 1256,
+      "fileType" : 8192
+    },
+    "\/icons\/linkedin.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/linkedin.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/linkedin.png",
+      "initialSize" : 1045,
+      "fileType" : 8192
+    },
+    "\/img\/arrow_down.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/arrow_down.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/arrow_down.png",
+      "initialSize" : 1353,
+      "fileType" : 8192
     },
     "\/source\/controllers\/panel.coffee" : {
       "ignoreWasSetByUser" : 0,
@@ -532,29 +479,117 @@
       "outputStyle" : 0,
       "fileType" : 32
     },
-    "\/source\/index.coffee" : {
+    "\/source\/utils\/storage.coffee" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/source\/index.coffee",
+      "inputAbbreviatedPath" : "\/source\/utils\/storage.coffee",
       "checkOutputStyle" : 0,
       "minifyOutput" : 0,
-      "outputAbbreviatedPath" : "\/app\/index.js",
+      "outputAbbreviatedPath" : "\/app\/utils\/storage.js",
       "outputStyle" : 0,
       "fileType" : 32
     },
-    "\/source\/controllers\/keys.item.coffee" : {
+    "\/icons\/blogger.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/source\/controllers\/keys.item.coffee",
+      "inputAbbreviatedPath" : "\/icons\/blogger.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/blogger.png",
+      "initialSize" : 1005,
+      "fileType" : 8192
+    },
+    "\/source\/models\/key.coffee" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/source\/models\/key.coffee",
       "checkOutputStyle" : 0,
       "minifyOutput" : 0,
-      "outputAbbreviatedPath" : "\/app\/controllers\/keys.item.js",
+      "outputAbbreviatedPath" : "\/app\/models\/key.js",
       "outputStyle" : 0,
       "fileType" : 32
+    },
+    "\/icons\/myspace.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/myspace.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/myspace.png",
+      "initialSize" : 1166,
+      "fileType" : 8192
+    },
+    "\/icons\/xing.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/xing.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/xing.png",
+      "initialSize" : 1288,
+      "fileType" : 8192
+    },
+    "\/icons\/stumbleupon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/stumbleupon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/stumbleupon.png",
+      "initialSize" : 1304,
+      "fileType" : 8192
+    },
+    "\/icons\/googleplus.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/googleplus.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/googleplus.png",
+      "initialSize" : 2148,
+      "fileType" : 8192
+    },
+    "\/icons\/google.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/google.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/google.png",
+      "initialSize" : 2055,
+      "fileType" : 8192
+    },
+    "\/icons\/flikr.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/icons\/flikr.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/icons\/flikr.png",
+      "initialSize" : 831,
+      "fileType" : 8192
+    },
+    "\/app\/controllers\/keys.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/controllers\/keys.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/app\/controllers\/keys-ck.js",
+      "fileType" : 64
     }
   },
   "manualImportLinks" : [
@@ -738,7 +773,7 @@
   },
   "projectAttributes" : {
     "bourbonEnabled" : 0,
-    "displayValue" : "WebKeys_static",
+    "displayValue" : "webkeys",
     "displayValueWasSetByUser" : 0,
     "compassEnabled" : 0
   }

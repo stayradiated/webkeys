@@ -4,17 +4,20 @@
   "description": "A lightweight password manager for OSX",
   "version": "0.0.1",
   "window": {
-    "toolbar": false,
+    "toolbar": true,
     "width": 300,
     "height": 365,
     "position": "mouse",
     "min_width": 300,
     "max_width": 300,
     "min_height": 100,
-    "transparent": true,
-    "frame": false
+    "transparent": false,
+    "frame": true
   },
   "dependencies": {
-    "jquery": "*"
+    "jquery": "*",
+    "spine": "*",
+    "q": "*",
+    "lodash": "*"
   }
 }

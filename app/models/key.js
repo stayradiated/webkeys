@@ -5,22 +5,38 @@
     __hasProp = {}.hasOwnProperty,
     __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
 
-  Spine = require('../libs/spine');
+  Spine = require('spine');
 
   global.Key = (function(_super) {
 
     __extends(Key, _super);
 
     function Key() {
+      this.toggleEdit = __bind(this.toggleEdit, this);
+
       this.toggleOpen = __bind(this.toggleOpen, this);
 
       this.select = __bind(this.select, this);
       return Key.__super__.constructor.apply(this, arguments);
     }
 
-    Key.configure('Key', 'title', 'url', 'username', 'password', 'created_on', 'open');
+    Key.configure('Key', 'title', 'url', 'username', 'password', 'icon', 'created_on', 'open', 'edited');
 
-    Key.deselect = function() {
+    Key.extend(Key.Local);
+
+    Key.filter = function(query) {
+      var keys;
+      keys = [];
+      query = query.toLowerCase();
+      Key.each(function(key) {
+        if (key.title.toLowerCase().indexOf(query) > -1) {
+          return keys.push(key.id);
+        }
+      });
+      return keys;
+    };
+
+    Key.deselectAll = function() {
       var key, selected, _i, _len, _results;
       selected = Key.select(function(key) {
         var _ref;
@@ -35,13 +51,7 @@
       return _results;
     };
 
-    Key.prototype.select = function() {
-      Key.deselect();
-      this.selected = true;
-      return this.trigger('select');
-    };
-
-    Key.close = function() {
+    Key.closeAll = function() {
       var key, open, _i, _len, _results;
       open = Key.select(function(key) {
         var _ref;
@@ -50,21 +60,35 @@
       _results = [];
       for (_i = 0, _len = open.length; _i < _len; _i++) {
         key = open[_i];
+        if (key.edited) {
+          key.toggleEdit(false);
+        }
         key.updateAttribute('open', false);
         _results.push(key.trigger('close'));
       }
       return _results;
     };
 
-    Key.prototype.toggleOpen = function() {
-      var open, _ref;
-      open = (_ref = !this.open) != null ? _ref : true;
-      Key.close();
+    Key.prototype.select = function() {
+      Key.deselectAll();
+      this.selected = true;
+      return this.trigger('select');
+    };
+
+    Key.prototype.toggleOpen = function(value) {
+      var open;
+      open = value != null ? value : !this.open;
+      Key.closeAll();
       if (open === false) {
         return;
       }
       this.updateAttribute('open', true);
       return this.trigger('open');
+    };
+
+    Key.prototype.toggleEdit = function(value) {
+      this.updateAttribute('edited', value ? value : !this.edited);
+      return this.trigger(this.edited ? 'open-edit' : 'close-edit');
     };
 
     return Key;

@@ -200,13 +200,19 @@ li {
   cursor: default;
 }
 header.page {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  right: 0;
   background: url("../img/header.png");
   height: 42px;
   line-height: 42px;
   -webkit-app-region: drag;
-  -moz-border-radius: 7px 7px 0 0;
-  -webkit-border-radius: 7px 7px 0 0;
-  border-radius: 7px 7px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
 }
@@ -266,22 +272,60 @@ section.page {
   border-left: 1px solid #000;
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
-  -moz-border-radius: 0 0 7px 7px;
-  -webkit-border-radius: 0 0 7px 7px;
-  border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+}
+section.page.search .searchBox {
+  display: block;
+}
+section.page.search ul.keys {
+  top: 31px;
+}
+section.page .searchBox {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  bottom: auto;
+  right: 0;
+  display: none;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 0;
+  outline: none;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 0 10px;
+  color: #333;
+}
+ul.keys {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 ul.keys li {
   height: 64px;
   list-style: none;
   border-bottom: 1px solid #c2c2c2;
-  -webkit-transition: height 0.2s linear;
-  -moz-transition: height 0.2s linear;
-  transition: height 0.2s linear;
+  -webkit-transition: height 0.1s linear;
+  -moz-transition: height 0.1s linear;
+  transition: height 0.1s linear;
   position: relative;
   overflow: hidden;
 }
+ul.keys li.active .main {
+  background: #cce7f5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#cce7f5), to(#bfdae8));
+  background: -moz-linear-gradient(top, #cce7f5, #bfdae8);
+  background: linear-gradient(top, #cce7f5, #bfdae8);
+}
 ul.keys li.open {
-  height: 180px;
+  height: 240px;
 }
 ul.keys li.new {
   height: 0px;
@@ -315,27 +359,31 @@ ul.keys .button {
   float: right;
   margin-top: 12px;
 }
-ul.keys .details {
-  display: block;
+ul.keys .dropdown {
   position: absolute;
   top: 64px;
-  left: 0;
   bottom: 0;
-  right: 0;
+  left: 0;
+  width: 200%;
   border-top: 1px solid #c2c2c2;
   background: #fff;
-  padding: 11px;
   -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
   -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
   box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+  -webkit-transition: left 0.3s ease;
+  -moz-transition: left 0.3s ease;
+  transition: left 0.3s ease;
 }
-ul.keys .details .control {
+ul.keys .dropdown.edit {
+  left: -100%;
+}
+ul.keys .dropdown .control {
   font-size: 14px;
   padding: 5px 0;
 }
-ul.keys .details .control div {
+ul.keys .dropdown .control div {
   float: left;
   width: 180px;
   height: 21px;
@@ -345,12 +393,12 @@ ul.keys .details .control div {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-ul.keys .details .control:after {
+ul.keys .dropdown .control:after {
   content: "";
   display: table;
   clear: both;
 }
-ul.keys .details label {
+ul.keys .dropdown label {
   display: block;
   float: left;
   font-size: 13px;
@@ -360,25 +408,46 @@ ul.keys .details label {
   margin-right: 2px;
   color: #333;
 }
-ul.keys .details .url {
+ul.keys .details-pane {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 50%;
+  padding: 11px;
+}
+ul.keys .details-pane .url {
   color: #08c;
   text-decoration: underline;
   cursor: pointer;
 }
-ul.keys .details .copy:hover {
+ul.keys .details-pane .copy:hover {
   background: rgba(0,0,0,0.07);
 }
-ul.keys .details .copy:hover:after {
+ul.keys .details-pane .copy:hover:after {
   content: "copy";
 }
-ul.keys .details .copy.copied:after {
+ul.keys .details-pane .copy.copied:after {
   content: "copied";
   font-weight: bold;
 }
-ul.keys .details .copy:after {
+ul.keys .details-pane .copy:after {
   display: block;
   float: right;
   font-size: 12px;
+}
+ul.keys .edit-pane {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  right: 0;
+  padding: 11px;
+}
+ul.keys .edit-pane input {
+  margin-left: 5px;
 }
 .button {
   cursor: pointer;
@@ -387,6 +456,11 @@ ul.keys .details .copy:after {
   width: 11px;
   height: 18px;
   background: url("../img/arrow_right.png");
+}
+.button.arrow-down {
+  width: 21px;
+  height: 14px;
+  background: url("../img/arrow_down.png");
 }
 .button.button-normal {
   -moz-border-radius: 3px;
